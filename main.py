@@ -37,8 +37,8 @@ query_template = """
 }
 """
 
-INCREMENT = 5
-MAX_REPOSITORIES = 50
+INCREMENT = 1
+MAX_REPOSITORIES = 1000
 
 def process_repository(repo):
     name = repo["name"]
