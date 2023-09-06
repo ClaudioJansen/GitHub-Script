@@ -3,7 +3,7 @@ import csv
 from datetime import datetime
 
 graphql_url = "https://api.github.com/graphql"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer your_token"}
 
 query_template = """
 {
@@ -59,6 +59,7 @@ def process_repository(repo):
     created_at_date = datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%SZ")
     current_date = datetime.now()
     age_years = (current_date - created_at_date).days / 365
+    age_years = round(age_years, 2)
     last_updated_date = datetime.strptime(updated_at, "%Y-%m-%dT%H:%M:%SZ")
     time_since_last_update = (current_date - last_updated_date).days
 
