@@ -2,6 +2,7 @@ import requests
 import csv
 from datetime import datetime
 
+# Adicionar seu token do github para acessar a API
 graphql_url = "https://api.github.com/graphql"
 headers = {"Authorization": "Bearer your_token"}
 
@@ -41,7 +42,7 @@ query_template = """
 """
 
 INCREMENT = 5
-MAX_REPOSITORIES = 50
+MAX_REPOSITORIES = 1000
 
 def process_repository(repo):
     name = repo["name"]
