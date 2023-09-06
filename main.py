@@ -3,7 +3,7 @@ import csv
 from datetime import datetime
 
 graphql_url = "https://api.github.com/graphql"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer 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"}
 
 query_template = """
 {
@@ -31,14 +31,17 @@ query_template = """
                 issues {
                     totalCount
                 }
+                closed_issues: issues(states: CLOSED){
+                    totalCount
+                }
             }
         }
     }
 }
 """
 
-INCREMENT = 1
-MAX_REPOSITORIES = 1000
+INCREMENT = 5
+MAX_REPOSITORIES = 50
 
 def process_repository(repo):
     name = repo["name"]
@@ -50,9 +53,9 @@ def process_repository(repo):
     updated_at = repo["updatedAt"]
     primary_language = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else "N/A"
     total_issues = repo["issues"]["totalCount"]
-    closed_issues = repo["issues"].get("closed", 0)
-    issues_ratio = closed_issues / total_issues if total_issues > 0 else 0
+    closed_issues =  repo["closed_issues"]["totalCount"]
 
+    issues_ratio = closed_issues / total_issues if total_issues > 0 else 0
     created_at_date = datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%SZ")
     current_date = datetime.now()
     age_years = (current_date - created_at_date).days / 365
