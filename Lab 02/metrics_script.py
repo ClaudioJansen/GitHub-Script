@@ -7,7 +7,8 @@ import pandas as pd
 
 #
 # Script para ler o arquivo de repositórios e clonar
-# OBS: Só funciona se rodar dentro da pasta do CK
+# OBS: Só funciona se rodar dentro da pasta do CK:
+# https://github.com/mauricioaniche/ck
 #
 
 def extract_metrics(repo_name):
