@@ -8,7 +8,7 @@ from github import Github
 #
 
 # Adicionar seu token do GitHub para acessar a API
-github_pat = "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"
+github_pat = "yout_token"
 graphql_url = "https://api.github.com/graphql"
 headers = {"Authorization": f"Bearer {github_pat}"}
 
