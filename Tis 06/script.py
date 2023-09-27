@@ -1,6 +1,7 @@
 import requests
 
-token = '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'
+# Adicionar token
+token = 'seu_token'
 
 params = {
     'q': 'language:java',
