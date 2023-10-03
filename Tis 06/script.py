@@ -3,7 +3,7 @@ import csv
 from datetime import datetime
 
 # Adicionar token
-token = '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'
+token = 'yout_token'
 
 params = {
     'q': 'language:java',
