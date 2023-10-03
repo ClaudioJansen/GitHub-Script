@@ -1,0 +1,162 @@
+repository_name;pipeline_name;reason_failure;fix_time
+spring-projects/spring-boot;Build Pull Request;fix formatting and checkstyle;-1 day, 21:25:07
+spring-projects/spring-boot;Build Pull Request;Add test;-1 day, 23:32:13
+spring-projects/spring-boot;Build Pull Request;Instrument user-created data-source for checkpoint-restore.;-1 day, 14:40:59
+spring-projects/spring-boot;Build Pull Request;Add RabbitMQ maxInboundMessageBodySize;-2 days, 9:56:53
+spring-projects/spring-boot;Build Pull Request;"Use `Neo4jManagedTypes` to populate the mapping context.
+
+Fixes #37573.";-2 days, 16:24:33
+spring-projects/spring-boot;Build Pull Request;"Add support for configuring JMS listener sessionTransacted
+
+This commit introduces `spring.jms.listener.session-transacted` property
+in order to enable explicit configuration of `sessionTransacted` on the
+`DefaultMessageListenerContainer`.
+
+Prior to this commit, `sessionTransacted` would be configured implicitly
+based on presence of `JtaTransactionManager`.";-5 days, 1:38:59
+spring-projects/spring-boot;Build Pull Request;"Add support for configuring non-standard JMS acknowledge modes
+
+Prior to this commit, `spring.jms.listener.acknowledge-mode` and
+`spring.jms.template.acknowledge-mode` accepted only a predefined set of
+values representing standard JMS acknowledge modes.
+
+This commit adds support for also using arbitrary integer values to
+these configuration properties, which allow configuring vendor-specific
+JMS acknowledge modes.
+
+Closes gh-37447";-5 days, 2:04:22
+spring-projects/spring-boot;Build Pull Request;Polishing.;-5 days, 5:18:31
+spring-projects/spring-boot;Build Pull Request;"Use `Neo4jManagedTypes` to populate the mapping context.
+
+Fixes #37573.";-5 days, 6:56:04
+spring-projects/spring-boot;Build Pull Request;"Add Spring Pulsar container property customizers
+
+This commit adds the ability for users to register
+property customizers for the auto-configured Spring
+Pulsar listener containers.
+
+See #36347";-4 days, 13:32:11
+spring-projects/spring-boot;Build Pull Request;Removed setValidateConnectionOnBorrow method call on ucp datasource;-1 day, 19:39:04
+spring-projects/spring-boot;Build Pull Request;"Add support for configuring JmsTemplate acknowledgeMode and sessionTransacted
+
+Closes gh-37472";-1 day, 21:02:44
+spring-projects/spring-boot;Build Pull Request;fix bootBuildImage task failing when native GraalVM compilation is slow and HTTP/S communication with Docker is used;-1 day, 22:09:31
+oracle/graal;GraalVM Gate;Add createLocal(Object name) method to API;-1 day, 23:20:06
+oracle/graal;GraalVM Gate;"Tier0, Tier1 -> Uncached, Cached; improve error reporting";-1 day, 22:51:07
+oracle/graal;Nightly Quarkus Tests;"[GR-48497] Use HotSpotBytecodeParser instead of BytecodeParser
+
+PullRequest: graal/15655";-13 days, 7:25:55
+oracle/graal;Nightly Quarkus Tests;"[GR-48497] Use HotSpotBytecodeParser instead of BytecodeParser
+
+PullRequest: graal/15655";-12 days, 7:25:51
+oracle/graal;Nightly Quarkus Tests;"[GR-48497] Use HotSpotBytecodeParser instead of BytecodeParser
+
+PullRequest: graal/15655";-11 days, 7:26:07
+oracle/graal;Nightly Quarkus Tests;"[GR-48930] Do not disable GC hinting for libgraal in -Xcomp mode.
+
+PullRequest: graal/15678";-10 days, 7:26:05
+oracle/graal;Nightly Quarkus Tests;"[GR-48309] Remove PRaiseNode from some builtins
+
+PullRequest: graalpython/2992";-9 days, 7:26:06
+oracle/graal;Nightly Quarkus Tests;"[GR-48632] Fix LambdaUtils#findStableLambdaName on JDK 22
+
+PullRequest: graal/15645";-8 days, 7:25:43
+oracle/graal;Nightly Quarkus Tests;Use precise root node type when binding $root;-8 days, 18:44:24
+oracle/graal;Nightly Quarkus Tests;"[GR-21590] Update imports
+
+PullRequest: graalpython/2989";-7 days, 7:25:43
+oracle/graal;Nightly Quarkus Tests;"[GR-48645] Add compiler and libgraal JDK 22 jobs.
+
+PullRequest: graal/15619";-6 days, 7:25:49
+oracle/graal;Nightly Quarkus Tests;"[GR-48645] Add compiler and libgraal JDK 22 jobs.
+
+PullRequest: graal/15619";-5 days, 7:25:56
+oracle/graal;Nightly Quarkus Tests;"[GR-48747] [GR-48732] Use standalones for tests.
+
+PullRequest: graalpython/2968";-4 days, 7:25:54
+oracle/graal;Nightly Quarkus Tests;"[GR-48343] [GR-48359] Add support for JFR events AllocationRequiringGC and SystemGC.
+
+PullRequest: graal/15416";-3 days, 7:26:02
+oracle/graal;Nightly Quarkus Tests;"[GR-48412] Use VM interpreter oop map for OSR entry point.
+
+PullRequest: graal/15546";-2 days, 7:25:52
+oracle/graal;Nightly Quarkus Tests;"[GR-45863] Instrumentation intercepts yield/resume and debugger fixes stepping over await.
+
+PullRequest: graal/15198";-1 day, 7:26:02
+oracle/graal;Nightly Quarkus Tests;"[GR-48660] Fix ""New VarHandle found after static analysis"" in Netty 5.
+
+PullRequest: graal/15596";-2 days, 0:00:00
+oracle/graal;Nightly Quarkus Tests;Improve Java code snippet rendering;-2 days, 13:32:25
+oracle/graal;Nightly Quarkus Tests;"[GR-21590] Update imports
+
+PullRequest: graalpython/2961";-2 days, 23:59:47
+oracle/graal;Nightly Quarkus Tests;"[GR-47762] Fix null object case in PrintImageHeapConnectedComponents
+
+PullRequest: graal/15172";-2 days, 5:18:43
+oracle/graal;Nightly Quarkus Tests;"[GR-47947] Analyze runtime compilation snippets.
+
+PullRequest: graal/15507";-1 day, 5:18:59
+oracle/graal;Nightly Quarkus Tests;Support null objects in PrintImageHeapConnectedComponents;-1 day, 20:56:01
+eclipse-vertx/vert.x;vertx-core (4.x);Minor rename / cleanup;-2 days, 23:59:49
+eclipse-vertx/vert.x;vertx-core (4.x);"Implement a builder for HttpClient, this will be useful for configuring the address resolver for service discovery.
+
+The builder allows to retrofit the client redirect/connect handlers like done in SQL client.";-1 day, 23:20:46
+eclipse-vertx/vert.x;vertx-core (4.x);"Implement a builder for HttpClient, this will be useful for configuring the address resolver for service discovery.
+
+The builder allows to retrofit the client redirect/connect handlers like done in SQL client.";-1 day, 13:14:45
+eclipse-vertx/vert.x;vertx-core (5.x);Minor rename / cleanup;-1 day, 9:25:14
+eclipse-vertx/vert.x;vertx-core (5.x);Remove useless CommandFactory service loader declaration;-1 day, 20:52:58
+eclipse-vertx/vert.x;CI;Releasing 3.9.17-SNAPSHOT;-28 days, 6:03:25
+eclipse-vertx/vert.x;CI;fix #4660: incrementing the fetch for ping/pong;-1 day, 23:31:28
+eclipse-vertx/vert.x;CI;fix #4660: incrementing the fetch for ping/pong;-41 days, 13:49:37
+eclipse-vertx/vert.x;CI;Deprecate callbacks;-2 days, 0:00:02
+eclipse-vertx/vert.x;CI;Deprecate callbacks;-2 days, 23:59:55
+eclipse-vertx/vert.x;CI;Deprecate callbacks;-1 day, 6:42:06
+eclipse-vertx/vert.x;CI;Set version to 5.0.0-SNAPSHOT;-1 day, 16:44:06
+eclipse-vertx/vert.x;CI;Save expensive interface type checks (related JDK-8180450 and https://github.com/netty/netty/issues/12708);-1 day, 12:39:10
+eclipse-vertx/vert.x;CI;"Propagate trace when upgrading connections
+
+Fix https://github.com/eclipse-vertx/vert.x/issues/4630";-1 day, 18:13:52
+eclipse-vertx/vert.x;CI;Make nativeTransport public so it can be used in tests;-1 day, 22:02:39
+eclipse-vertx/vert.x;CI;"Openssl no longer has much better performance
+
+https: //www.oracle.com/java/technologies/javase/8-whats-new.html ""Hardware intrinsics were added to use Advanced Encryption Standard (AES).""
+https: //openjdk.org/jeps/164 ""JEP 164: Leverage CPU Instructions for AES Cryptography""
+https: //docs.oracle.com/javase/9/whatsnew/#d1373e94 ""Improves performance ranging from 34x to 150x for AES/GCM/NoPadding""
+https: //openjdk.org/jeps/246 ""JEP 246: Leverage CPU Instructions for GHASH and RSA""
+Signed-off-by: Julian Ladisch <julianladisch@users.noreply.github.com>";-1 day, 23:59:22
+eclipse-vertx/vert.x;CI;"Vert.x HTTP h2c client connection gets an option to ensure connection is always HTTP/2 when using h2c without prior knowledge.
+
+Vert.x HTTP client initially sends an HTTP/1.1 request to the origin server while perfoming the HTTP upgrade to h2c when establishing an h2c connection without prior knowledge. This cause the first request to use HTTP/1.1 and subsequent requests using the same connection to use HTTP/2.
+
+This adds an option to have the client perform a preflight OPTIONS request before, consequently the client will always provide an HTTP/2 request since the preflight request will establish the connection.";-1 day, 23:36:06
+arduino/Arduino;Java CI;dasdasd;-208 days, 10:01:09
+arduino/Arduino;Java CI;pr 11543;-198 days, 0:13:50
+pinpoint-apm/pinpoint;Homepage;[#10028] 2.5.2 release;-257 days, 6:10:26
+pinpoint-apm/pinpoint;Homepage;[#9859] 2.5.1-p1 release;-256 days, 2:47:31
+pinpoint-apm/pinpoint;Homepage;[#9859] 2.5.1-p1 release;-256 days, 22:57:02
+pinpoint-apm/pinpoint;Homepage;[#9859] 2.5.1-p1 release;-196 days, 3:50:31
+pinpoint-apm/pinpoint;Homepage;[#9842] 2.5.1 release;-194 days, 0:12:34
+pinpoint-apm/pinpoint;Homepage;[#9842] 2.5.1 release;-194 days, 1:39:45
+pinpoint-apm/pinpoint;Homepage;[#9538] 2.5.0 release;-89 days, 22:13:17
+pinpoint-apm/pinpoint;Homepage;[#9538] 2.5.0 release;-88 days, 2:33:57
+pinpoint-apm/pinpoint;it-schedule;[#noissue] Restore jul-to-slf4j dependency;-1 day, 0:00:15
+pinpoint-apm/pinpoint;it-schedule;[#noissue] fix plugin it forked java;-1 day, 0:00:03
+pinpoint-apm/pinpoint;it-schedule;[#10355] Fix servlet response http-status-recorder;-6 days, 0:00:44
+pinpoint-apm/pinpoint;it-schedule;[#10355] Fix servlet response http-status-recorder;-5 days, 0:00:57
+pinpoint-apm/pinpoint;it-schedule;[#10355] Fix servlet response http-status-recorder;-4 days, 0:00:13
+pinpoint-apm/pinpoint;it-schedule;[#10355] Fix servlet response http-status-recorder;-3 days, 0:00:16
+pinpoint-apm/pinpoint;it-schedule;[#noissue] Fixed default atd service;-2 days, 0:00:09
+pinpoint-apm/pinpoint;it-schedule;[#noissue] change package name for pinot-batch;-1 day, 0:00:14
+pinpoint-apm/pinpoint;it-schedule;[#noissue] Remove PinpointThreadPoolExecutorFactoryBean;-2 days, 23:59:57
+pinpoint-apm/pinpoint;it-schedule;[#noissue] fix plugin-it shared instance;-2 days, 23:59:08
+pinpoint-apm/pinpoint;Publish package to the Maven Central Repository;[#9538] 2.5.0 release;-1 day, 20:13:54
+pinpoint-apm/pinpoint;Publish package to the Maven Central Repository;[#9538] 2.5.0 release;-1 day, 21:38:33
+pinpoint-apm/pinpoint;Maven;[#noissue] Removed thrift in realtime;-1 day, 22:10:50
+pinpoint-apm/pinpoint;Maven;[#10299] Adding network information for Pinpoint inspector;-1 day, 18:12:52
+pinpoint-apm/pinpoint;Maven;[#noissue] Removed thrift in realtime;-2 days, 15:30:54
+pinpoint-apm/pinpoint;Maven;[#noissue] Refactor ThreadPoolExecutor Configuration;-2 days, 22:13:06
+pinpoint-apm/pinpoint;Maven;[#noissue] Refactor ThreadPoolExecutor Configuration;-2 days, 22:19:45
+pinpoint-apm/pinpoint;Maven;[#noissue] Refactor ThreadPoolExecutor Configuration;-2 days, 22:21:52
+pinpoint-apm/pinpoint;Maven;[#noissue] Refactor ThreadPoolExecutor Configuration;-1 day, 21:22:39
+pinpoint-apm/pinpoint;Maven;[#noissue] Refactor ThreadPoolExecutor Configuration;-1 day, 21:31:23

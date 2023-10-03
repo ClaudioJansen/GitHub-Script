@@ -1,0 +1,899 @@
+Repositório: macrozheng/mall
+Repositório: ityouknow/spring-boot-examples
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: Lock Issues
+ID da Workflow: 12852608
+Nome da Pipeline: Label Commenter
+ID da Workflow: 14326724
+Nome da Pipeline: Close stale issues
+ID da Workflow: 14327670
+Nome da Pipeline: pages-build-deployment
+ID da Workflow: 16475028
+Nome da Pipeline: Should workflow run?
+ID da Workflow: 20968500
+Nome da Pipeline: CI - Java
+ID da Workflow: 21037163
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 5170675721
+Motivo da falha: WIP does adding no-sandbox to this bazel fix the failing Java tests...
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5170675721
+"Tempo para correção: -143 days, 14:44:08"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4823866763
+Motivo da falha: [java] make all logging variable names consistent
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4823866763
+"Tempo para correção: -105 days, 13:39:18"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4819337176
+"Motivo da falha: [java] implement driver service logging with sendOutputTo for all drivers
+
+This allows completely silencing all logging output or directing everything from the process to a specified file"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4819337176
+"Tempo para correção: -105 days, 21:51:52"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4730292553
+Motivo da falha: [CDP] Removing script tag to generate docs
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4730292553
+"Tempo para correção: -95 days, 1:02:43"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4245056124
+Motivo da falha: [rust] Update Cargo dependencies
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4245056124
+"Tempo para correção: -41 days, 16:37:28"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4244307003
+Motivo da falha: [CI] Fixing CI script
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4244307003
+"Tempo para correção: -41 days, 18:01:39"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4244060016
+Motivo da falha: [CI] Freeing disk space before run
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4244060016
+"Tempo para correção: -41 days, 18:28:05"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 4243992562
+Motivo da falha: [CI] Freeing disk space before run
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4243992562
+"Tempo para correção: -41 days, 18:34:41"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 3910584977
+Motivo da falha: [java] Close BiDi session on closing the last top-level browsing context
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3910584977
+"Tempo para correção: -1 day, 22:50:00"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 3909998267
+"Motivo da falha: Upgrade setup-bazel
+
+Newer version should be more reliable and efficient with external-cache"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3909998267
+"Tempo para correção: -1 day, 23:59:51"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 3908377922
+"Motivo da falha: Allow timeout config to be set for local drivers
+
+Fixes #11158"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3908377922
+"Tempo para correção: -1 day, 19:46:51"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 3908317810
+"Motivo da falha: Allow timeout config to be set for local drivers
+
+Fixes #11158"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3908317810
+"Tempo para correção: -1 day, 19:59:22"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Java
+Run ID: 3908144729
+"Motivo da falha: Allow timeout config to be set for local drivers
+
+Fixes #11158"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3908144729
+"Tempo para correção: -1 day, 20:38:44"
+----------------------------------------
+Nome da Pipeline: CI - Python
+ID da Workflow: 21040357
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 6216045687
+"Motivo da falha: [py] chromium service log file name should always use args
+
+Chrome Logging Preferences require logging to be enabled with --log-path"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6216045687
+"Tempo para correção: -49 days, 23:23:32"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 5558330355
+Motivo da falha: [py] add configurable values to client config
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5558330355
+"Tempo para correção: -3 days, 22:59:59"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 5558322176
+Motivo da falha: [py] implement proxy and keep alive with client config
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5558322176
+"Tempo para correção: -3 days, 23:01:08"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 5557585219
+Motivo da falha: [py] implement proxy and keep alive with client config
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5557585219
+"Tempo para correção: -2 days, 0:46:37"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 5556552449
+Motivo da falha: [py] implement proxy and keep alive with client config
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5556552449
+"Tempo para correção: -2 days, 2:57:54"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 5354947927
+"Motivo da falha: [java] Ack the log file argument without need to combine it
+
+Fixes #12225"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5354947927
+"Tempo para correção: -161 days, 0:01:29"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 5183529001
+Motivo da falha: [py] make custom exception for driver location
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5183529001
+"Tempo para correção: -144 days, 8:10:04"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 4970261431
+"Motivo da falha: [py] use ClientConfig for keep_alive, proxy, timeout and certificate path settings"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4970261431
+"Tempo para correção: -121 days, 6:24:26"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 4970141203
+"Motivo da falha: [py] use ClientConfig for keep_alive, proxy, timeout and certificate path settings"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4970141203
+"Tempo para correção: -121 days, 6:56:23"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 4970020398
+"Motivo da falha: [py] use ClientConfig for keep_alive, proxy, timeout and certificate path settings"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4970020398
+"Tempo para correção: -121 days, 7:23:28"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 3910584984
+Motivo da falha: [java] Close BiDi session on closing the last top-level browsing context
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3910584984
+"Tempo para correção: -1 day, 22:50:00"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 3909893095
+"Motivo da falha: Upgrade setup-bazel
+
+Newer version should be more reliable and efficient with external-cache"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3909893095
+"Tempo para correção: -1 day, 19:02:12"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 3908377928
+"Motivo da falha: Allow timeout config to be set for local drivers
+
+Fixes #11158"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3908377928
+"Tempo para correção: -1 day, 23:47:29"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Python
+Run ID: 3908144727
+"Motivo da falha: Allow timeout config to be set for local drivers
+
+Fixes #11158"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3908144727
+"Tempo para correção: -1 day, 20:38:44"
+----------------------------------------
+Nome da Pipeline: CI - JavaScript
+ID da Workflow: 21041075
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - JavaScript
+Run ID: 6209202785
+Motivo da falha: [js] fix more lint warnings
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6209202785
+"Tempo para correção: -106 days, 19:45:16"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - JavaScript
+Run ID: 3910584986
+Motivo da falha: [java] Close BiDi session on closing the last top-level browsing context
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3910584986
+"Tempo para correção: -1 day, 23:03:03"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - JavaScript
+Run ID: 3908144721
+"Motivo da falha: Allow timeout config to be set for local drivers
+
+Fixes #11158"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3908144721
+"Tempo para correção: -1 day, 20:38:44"
+----------------------------------------
+Nome da Pipeline: CI - Ruby
+ID da Workflow: 21041076
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5994381886
+Motivo da falha: [rb] set tests to use stable channel for Chrome
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5994381886
+"Tempo para correção: -34 days, 2:17:54"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5881288622
+Motivo da falha: [rb] fix arguments passed into tests
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5881288622
+"Tempo para correção: -23 days, 11:09:58"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5880691524
+Motivo da falha: [rb] remove support for capabilities in local drivers
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5880691524
+"Tempo para correção: -23 days, 12:08:49"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5428318938
+"Motivo da falha: [rb] move custom logger rspec matchers to lib
+
+* ensure log id and log level match
+* support non-default logger instances
+* allow matching multiple log ids"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5428318938
+"Tempo para correção: -26 days, 19:10:59"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5181202551
+Motivo da falha: [rb] add custom Selenium Manager error and improve logic
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5181202551
+"Tempo para correção: -1 day, 8:37:23"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5180795291
+Motivo da falha: [rb] add custom Selenium Manager error and improve logic
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5180795291
+"Tempo para correção: -1 day, 9:26:14"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 5166395257
+Motivo da falha: WIP - does it fix dotnet to put removal back in ci-dotnet file?
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5166395257
+"Tempo para correção: -21 days, 23:43:52"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 4974813028
+Motivo da falha: [rb] implement remote downloads
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4974813028
+"Tempo para correção: -12 days, 22:59:56"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 4640977577
+Motivo da falha: Update ruby_version.bzl
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4640977577
+"Tempo para correção: -83 days, 6:33:15"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 4640178142
+Motivo da falha: Update ruby_version.bzl
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4640178142
+"Tempo para correção: -83 days, 8:46:45"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 4638674385
+Motivo da falha: [rb] require ruby 3.0+
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4638674385
+"Tempo para correção: -83 days, 12:42:31"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 4469416587
+Motivo da falha: [rb] can not connect to a server refusing connection; http library does not rescue this one
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/4469416587
+"Tempo para correção: -65 days, 11:55:39"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 3910584978
+Motivo da falha: [java] Close BiDi session on closing the last top-level browsing context
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3910584978
+"Tempo para correção: -1 day, 22:50:00"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Ruby
+Run ID: 3910108258
+"Motivo da falha: Upgrade setup-bazel
+
+Newer version should be more reliable and efficient with external-cache"
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/3910108258
+"Tempo para correção: -1 day, 23:57:18"
+----------------------------------------
+Nome da Pipeline: Build selenium-manager
+ID da Workflow: 37113045
+Nome da Pipeline: Nightly
+ID da Workflow: 41547632
+Nome da Pipeline: CI - .NET
+ID da Workflow: 41822278
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 6214814839
+Motivo da falha: [java] fix linting failures
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6214814839
+"Tempo para correção: -33 days, 3:59:39"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5987195863
+Motivo da falha: [dotnet] Chrome 117 presumably fixes some of the errors we see in .NET tests
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5987195863
+"Tempo para correção: -12 days, 23:00:33"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5986338299
+Motivo da falha: [dotnet] Chrome 117 presumably fixes some of the errors we see in .NET tests
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5986338299
+"Tempo para correção: -11 days, 2:43:29"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5954633874
+Motivo da falha: [java] fixed JsonOutput.MAX_DEPTH
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5954633874
+"Tempo para correção: -8 days, 3:28:06"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5880732945
+Motivo da falha: WIP - does it help not to use the existing cache?
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5880732945
+"Tempo para correção: -1 day, 5:42:37"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5879390658
+Motivo da falha: WIP - be stupid exact next to what worked even when IDE says not needed
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5879390658
+"Tempo para correção: -1 day, 7:42:37"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5879034465
+Motivo da falha: WIP - general fixes
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5879034465
+"Tempo para correção: -1 day, 8:12:13"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5879031416
+Motivo da falha: WIP - did I just miss a comma?
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5879031416
+"Tempo para correção: -1 day, 8:12:30"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5878908099
+Motivo da falha: WIP - rename 113 to 116 for dotnet
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5878908099
+"Tempo para correção: -1 day, 8:23:30"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5872700310
+Motivo da falha: WIP - use v115 pdls
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5872700310
+"Tempo para correção: -1 day, 21:49:27"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5872286678
+Motivo da falha: WIP - Add v116 support
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5872286678
+"Tempo para correção: -1 day, 22:49:43"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5872024238
+Motivo da falha: WIP - Use CDP v115 pdl files for v116
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5872024238
+"Tempo para correção: -1 day, 23:24:53"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5871948451
+Motivo da falha: WIP - Add v116 support
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5871948451
+"Tempo para correção: -1 day, 23:34:44"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5871601967
+Motivo da falha: [cdp] revert dotnet update to 116
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5871601967
+"Tempo para correção: -1 day, 23:53:41"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5871453435
+Motivo da falha: [cdp] revert dotnet update to 116
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5871453435
+"Tempo para correção: -2 days, 19:00:05"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5870126599
+Motivo da falha: WIP - does the old version compile? What is different???
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5870126599
+"Tempo para correção: -2 days, 21:36:56"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5869914100
+Motivo da falha: [dotnet] keep using CDP v115 for tests
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5869914100
+"Tempo para correção: -2 days, 22:03:35"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5869030466
+Motivo da falha: TEST - v115 js pdl to check .NET build
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5869030466
+"Tempo para correção: -2 days, 23:40:38"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5869029514
+Motivo da falha: TEST - v115 browser pdl to check .NET build
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5869029514
+"Tempo para correção: -2 days, 23:40:45"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5867566316
+Motivo da falha: [cdp] fix pdl so jars properly generated
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5867566316
+"Tempo para correção: -1 day, 2:10:42"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5856452737
+Motivo da falha: [ci] Use windows-2019 till actions/runner-images#7662 fixed
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5856452737
+"Tempo para correção: -3 days, 8:36:59"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5837528023
+Motivo da falha: Bumping version to 4.8.0
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5837528023
+"Tempo para correção: -1 day, 23:57:14"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - .NET
+Run ID: 5837527296
+Motivo da falha: [dotnet] update readme and bump version to 4.7
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5837527296
+"Tempo para correção: -1 day, 23:57:20"
+----------------------------------------
+Nome da Pipeline: CI
+ID da Workflow: 44841879
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6384935730
+Motivo da falha: [py]: use lazy string interpolation for logging calls
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6384935730
+"Tempo para correção: -1 day, 23:49:49"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6384629640
+Motivo da falha: Get the builds to run again
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6384629640
+"Tempo para correção: -1 day, 2:28:40"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6384479505
+Motivo da falha: [java] ensure proper error message gets logged
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6384479505
+"Tempo para correção: -1 day, 2:45:38"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6384321103
+Motivo da falha: Experiment with turning off caches for RBE build
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6384321103
+"Tempo para correção: -1 day, 3:00:41"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6382030084
+Motivo da falha: [rust] Use anyhow crate to display backtrace in case of error
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6382030084
+"Tempo para correção: -1 day, 6:47:08"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6381381002
+Motivo da falha: Get things compiling again
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6381381002
+"Tempo para correção: -1 day, 7:41:18"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6379853374
+Motivo da falha: [grid] shutdown executors created for a single tasks
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6379853374
+"Tempo para correção: -1 day, 9:53:40"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6379728880
+Motivo da falha: Formatting
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6379728880
+"Tempo para correção: -1 day, 10:06:04"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6378424779
+Motivo da falha: [java] remove the unused htmlunit-driver from the unit tests
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6378424779
+"Tempo para correção: -1 day, 12:27:20"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6377380648
+Motivo da falha: Merge branch 'SeleniumHQ:trunk' into driver_sessions_staled
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6377380648
+"Tempo para correção: -1 day, 14:13:15"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6374350756
+Motivo da falha: [grid] shutdown executors created for a single tasks
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6374350756
+"Tempo para correção: -1 day, 21:41:12"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI
+Run ID: 6373758844
+"Motivo da falha: Ensure Selenium Manager returns an exit code
+
+Without this, the java process API will wait for the
+Selenium Manager to exit indefinitely."
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/6373758844
+"Tempo para correção: -1 day, 23:33:23"
+----------------------------------------
+Nome da Pipeline: CI - Rust
+ID da Workflow: 45257983
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5920024526
+Motivo da falha: [rust] SM downloads fixed version of Firefox browser (#11682)
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5920024526
+"Tempo para correção: -12 days, 13:24:56"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5807062230
+Motivo da falha: [rust] Improve SM tests (WIP)
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5807062230
+"Tempo para correção: -1 day, 6:03:37"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5806890562
+Motivo da falha: [rust] Improve SM tests (WIP)
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5806890562
+"Tempo para correção: -1 day, 6:20:57"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5806731623
+Motivo da falha: [rust] Improve SM tests (WIP)
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5806731623
+"Tempo para correção: -1 day, 6:37:22"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5803382097
+Motivo da falha: [rust] Increase log level to trace in some tests
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5803382097
+"Tempo para correção: -1 day, 14:43:08"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5803256037
+Motivo da falha: [ci] Set rust backtrace to full
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5803256037
+"Tempo para correção: -1 day, 14:59:59"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5802857831
+Motivo da falha: [rust] Enhance unzipping logic in SM
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5802857831
+"Tempo para correção: -1 day, 16:00:22"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5796147333
+Motivo da falha: [rb] Bumping version to 4.12.0for nightly
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5796147333
+"Tempo para correção: -67 days, 7:39:23"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5158648341
+"Motivo da falha: [rust] Fix test failures on Windows CI
+
+Apparently the default shell environment on the Windows GitHub Actions
+runner is missing the PROGRAMFILES and PROGRAMFILES(X86) environment
+variables."
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5158648341
+"Tempo para correção: -1 day, 23:36:50"
+----------------------------------------
+Repositório: SeleniumHQ/selenium
+Nome da Pipeline: CI - Rust
+Run ID: 5158541554
+"Motivo da falha: [rust] Fix test failures on Windows CI
+
+Apparently the default shell environment on the Windows GitHub Actions
+runner is missing the PROGRAMFILES and PROGRAMFILES(X86) environment
+variables."
+Link para a falha: https://github.com/SeleniumHQ/selenium/actions/runs/5158541554
+"Tempo para correção: -1 day, 23:49:57"
+----------------------------------------
+Nome da Pipeline: Bazel
+ID da Workflow: 45406186
+Nome da Pipeline: mirror-selenium-releases
+ID da Workflow: 49620062
+Nome da Pipeline: CI - RBE
+ID da Workflow: 60689893
+Repositório: dromara/hutool
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: .github/workflows/docker.yml
+ID da Workflow: 28941074
+Nome da Pipeline: Integration Testing
+ID da Workflow: 20429336
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6341072720
+Motivo da falha: fix: polish demo
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6341072720
+"Tempo para correção: -2 days, 15:34:43"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6336911531
+Motivo da falha: fix: add endpoint for mtls module to restart the spring context
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6336911531
+"Tempo para correção: -2 days, 21:53:44"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6323036913
+Motivo da falha: fix: add copyright
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6323036913
+"Tempo para correção: -1 day, 23:09:17"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6322527457
+Motivo da falha: fix ci
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6322527457
+"Tempo para correção: -1 day, 23:43:04"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6322514051
+Motivo da falha: fix ci
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6322514051
+"Tempo para correção: -1 day, 23:44:22"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6322349648
+Motivo da falha: add outlier decection function
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6322349648
+"Tempo para correção: -2 days, 3:10:12"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6154610601
+Motivo da falha: update label routing starter module
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6154610601
+"Tempo para correção: -1 day, 22:39:45"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6129152855
+Motivo da falha: add routing context and update routing example
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6129152855
+"Tempo para correção: -2 days, 22:25:38"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6095131913
+Motivo da falha: add routing context and update routing example
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6095131913
+"Tempo para correção: -15 days, 21:01:45"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6063852559
+"Motivo da falha: feat: mtls support for tomcat & netty & all httpclient (#1)
+
+* feat: Add certificate manager support in xds-adapter
+
+* feat: Mtls support
+
+* feat: xds-adapter supports pilot-agent
+
+* refactor: remove useless class
+
+* feat: add podname and namespace in application.yml
+
+* fix: carry certificate when connect to istio 15012 port directly
+
+* refactor: polish governance related document
+
+* refactor: polish governance document
+
+* feat: Support PeerAuthentication in tomcat
+
+* feat: Add sds support for pilot-agent
+
+* feat: rebuild channel when disconnected
+
+* fix: fix the bug while restarting spring context
+
+* fix: extract SAN from certificate
+
+* refactor: move resttemplate related callbacks to a separate file
+
+* fix: fix npe while using 15010 port
+
+* fix: make tomcat dependency optional
+
+* Loading certificates for Netty
+
+* feat: reload certificate timely while using netty
+
+* feat: add okhttp3 support for resttemplate
+
+* feat: add MtlsSSLContext for all clients in Spring Cloud
+
+* feat: using sslcontext-kickstart to reload sslcontext
+
+---------
+
+Co-authored-by: zings <12455615+zings@user.noreply.gitee.com>"
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6063852559
+"Tempo para correção: -12 days, 20:05:05"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6057501399
+Motivo da falha: fix ci
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6057501399
+"Tempo para correção: -11 days, 21:05:44"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6055935811
+Motivo da falha: update filter logic
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6055935811
+"Tempo para correção: -10 days, 3:27:51"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6051135673
+Motivo da falha: update code logic
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6051135673
+"Tempo para correção: -10 days, 15:01:10"
+----------------------------------------
+Repositório: alibaba/spring-cloud-alibaba
+Nome da Pipeline: Integration Testing
+Run ID: 6008071630
+"Motivo da falha: Merge pull request #3 from 123liuziming/zing-2.2.x
+
+feat: using sslcontext-kickstart to reload sslcontext"
+Link para a falha: https://github.com/alibaba/spring-cloud-alibaba/actions/runs/6008071630
+"Tempo para correção: -6 days, 1:19:53"
+----------------------------------------
+Nome da Pipeline: Stale bot of marking stale issues
+ID da Workflow: 54900334
+Repositório: lenve/vhr
+Repositório: doocs/leetcode
+Nome da Pipeline: Greetings
+ID da Workflow: 201064
+Nome da Pipeline: compress-images
+ID da Workflow: 7935211
+Nome da Pipeline: update-starcharts
+ID da Workflow: 13667671
+Nome da Pipeline: pages-build-deployment
+ID da Workflow: 16478861
+Repositório: doocs/leetcode
+Nome da Pipeline: pages-build-deployment
+Run ID: 6358647575
+"Motivo da falha: feat: add ts solution to lc problem: No.2137 (#1724)
+
+No.2137.Pour Water Between Buckets to Make Water Levels Equal"
+Link para a falha: https://github.com/doocs/leetcode/actions/runs/6358647575
+"Tempo para correção: -1 day, 2:46:05"
+----------------------------------------
+Nome da Pipeline: clang-format-linter
+ID da Workflow: 59807104
+Repositório: doocs/leetcode
+Nome da Pipeline: clang-format-linter
+Run ID: 6368767548
+Motivo da falha: feat: add Java solutions to lc problems: No.2873~2876
+Link para a falha: https://github.com/doocs/leetcode/actions/runs/6368767548
+"Tempo para correção: -1 day, 22:27:40"
+----------------------------------------
+Repositório: doocs/leetcode
+Nome da Pipeline: clang-format-linter
+Run ID: 6367911534
+"Motivo da falha: feat: add solutions to lc problem: No.2871
+
+No.2871.Split Array Into Maximum Number of Subarrays"
+Link para a falha: https://github.com/doocs/leetcode/actions/runs/6367911534
+"Tempo para correção: -1 day, 23:43:28"
+----------------------------------------
+Nome da Pipeline: black-linter
+ID da Workflow: 59807801
+Nome da Pipeline: pr-checker
+ID da Workflow: 62602972
+Nome da Pipeline: pr-add-label
+ID da Workflow: 69004899
+Repositório: DrKLO/Telegram
+Repositório: elunez/eladmin
+Repositório: EnterpriseQualityCoding/FizzBuzzEnterpriseEdition
