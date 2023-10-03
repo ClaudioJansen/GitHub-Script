@@ -3,13 +3,13 @@ import csv
 from datetime import datetime
 
 # Adicionar token
-token = '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'
+token = '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'
 
 params = {
     'q': 'language:java',
     'sort': 'stars',
     'order': 'desc',
-    'per_page': 10,
+    'per_page': 100,
 }
 
 url = 'https://api.github.com/search/repositories'
@@ -50,7 +50,7 @@ def get_time_to_fix(owner, repo, workflow_id, failed_run_id):
                 return str(tdelta)
     return None
 
-for page in range(1, 2):
+for page in range(1, 6):
     params['page'] = page
     response = requests.get(url, headers=headers, params=params)
     if response.status_code == 200:
