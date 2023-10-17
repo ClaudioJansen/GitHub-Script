@@ -1,80 +1,89 @@
 import requests
 import csv
-from datetime import datetime
+import time
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
 
-# Adicionar token
-token = 'yout_token'
-
-params = {
-    'q': 'language:java',
-    'sort': 'stars',
-    'order': 'desc',
-    'per_page': 100,
-}
-
-url = 'https://api.github.com/search/repositories'
+token = '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'
 headers = {'Authorization': f'token {token}'}
+num_repositorios = 10  
+repos_por_pagina = 1
+num_paginas = num_repositorios // repos_por_pagina
 
-pipelines_info = []
+retry_strategy = Retry(
+    total=3,
+    status_forcelist=[429, 500, 502, 503, 504],
+    method_whitelist=["HEAD", "GET", "OPTIONS"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
 
-def get_pipeline_info(owner, repo):
-    pipeline_url = f'https://api.github.com/repos/{owner}/{repo}/actions/workflows'
-    response = requests.get(pipeline_url, headers=headers)
-    if response.status_code == 200:
-        return response.json()
-    return None
+session = requests.Session()
+session.mount("https://", adapter)
+session.mount("http://", adapter)
 
-def get_failed_runs(owner, repo, workflow_id):
-    runs_url = f'https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs'
-    response = requests.get(runs_url, headers=headers)
-    if response.status_code == 200:
-        runs_data = response.json()
-        return [run for run in runs_data['workflow_runs'] if run['conclusion'] == 'failure']
-    return []
+def obter_etapa_falha(session, jobs_url, headers):
+    response_jobs = session.get(jobs_url, headers=headers)
 
-def get_time_to_fix(owner, repo, workflow_id, failed_run_id):
-    runs_url = f'https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs'
-    response = requests.get(runs_url, headers=headers)
-    if response.status_code == 200:
-        runs_data = response.json()
-        found_error = False
-        error_time = None
-        for run in runs_data['workflow_runs']:
-            if run['id'] == failed_run_id:
-                found_error = True
-                error_time = run['created_at']
-            elif found_error and run['conclusion'] == 'success':
-                success_time = run['created_at']
-                FMT = '%Y-%m-%dT%H:%M:%SZ'
-                tdelta = datetime.strptime(success_time, FMT) - datetime.strptime(error_time, FMT)
-                return str(tdelta)
-    return None
+    # TODO retomar nesse ponto, validar se a etapa de falha de cada pipeline esta voltando certo (só mandar printar o run ali em baixo e ver qq pega)
 
-for page in range(1, 6):
-    params['page'] = page
-    response = requests.get(url, headers=headers, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        for repo in data['items']:
-            owner = repo['owner']['login']
-            repo_name = repo['name']
-            pipelines = get_pipeline_info(owner, repo_name)
-            if pipelines:
-                pipelines_info.append({'repo': repo_name, 'owner': owner, 'pipelines': pipelines})
+    if response_jobs.status_code == 200:
+        jobs_data = response_jobs.json()
 
-with open('pipelines.csv', 'w', newline='', encoding='utf-8') as csvfile:
-    writer = csv.writer(csvfile, delimiter=';')
-    writer.writerow(['repository_name', 'pipeline_name', 'logs_url', 'fix_time'])
+        jobs = jobs_data.get('jobs', [])  
 
-    for repo_info in pipelines_info:
-        for workflow in repo_info['pipelines']['workflows']:
-            failed_runs = get_failed_runs(repo_info['owner'], repo_info['repo'], workflow['id'])
-            for run in failed_runs:
-                fix_time = get_time_to_fix(repo_info['owner'], repo_info['repo'], workflow['id'], run['id'])
-                if fix_time:
-                    writer.writerow([
-                        f"{repo_info['owner']}/{repo_info['repo']}",
-                        workflow['name'],
-                        run['logs_url'],
-                        fix_time
-                    ])
+        if isinstance(jobs, list): 
+            for job in jobs:
+                if job['conclusion'] == 'failure':
+                    return job.get('name', 'Desconhecido')
+    return 'Desconhecido'
+
+def obter_detalhes_falha(session, repo_name, headers):
+    url_runs = f'https://api.github.com/repos/{repo_name}/actions/runs'
+    response_runs = session.get(url_runs, headers=headers)
+
+    falhas_totais = 0
+    etapas_falha = []
+
+    if response_runs.status_code == 200:
+        runs = response_runs.json()['workflow_runs']
+
+        for run in runs:
+            if run['conclusion'] == 'failure':
+                falhas_totais += 1
+                jobs_url = run.get('jobs_url')
+                etapa_falha = obter_etapa_falha(session, jobs_url, headers)
+                etapas_falha.append(etapa_falha)
+
+    return falhas_totais, etapas_falha
+
+with open('dados_pipelines.csv', mode='w', newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerow(['nome_do_repositorio', 'linguagem', 'falhas_totais', 'etapa_falha'])
+
+    for page_num in range(1, num_paginas + 1):
+        try:
+            url = f'https://api.github.com/search/repositories?q=stars:>1&s=stars&o=desc&page={page_num}&per_page={repos_por_pagina}'
+            response = session.get(url, headers=headers)
+        
+            if response.status_code == 200:
+                repositories = response.json()['items']
+
+                for repo in repositories:
+                    repo_name = repo['full_name']
+                    repo_language = repo['language'] or 'Não especificado'
+
+                    falhas_totais, etapas_falha = obter_detalhes_falha(session, repo_name, headers)
+
+                    # TODO continuar buscando os dados que faltam
+
+                    for etapa in etapas_falha:
+                        writer.writerow([repo_name, repo_language, falhas_totais, etapa])
+
+            else:
+                print(f'Erro ao buscar repositórios na página {page_num}: {response.content}')
+        
+        except requests.exceptions.RequestException as e:
+            print(f'Exceção capturada ao buscar repositórios na página {page_num}: {str(e)}')
+            time.sleep(10)
+
+session.close()

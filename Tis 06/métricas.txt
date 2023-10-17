@@ -1,0 +1,10 @@
+- Quantas pipelines com falhas totais existem no projeto.
+- Quantas pipelines com falhas em builds existem no projeto.
+- Quantas pipelines com falhas em testes existem no projeto.
+- Quantas pipelines com falhas em deploy existem no projeto.
+- Tempo gasto na correção de uma pipeline, fazer a conta de quanto tempo foi gasto no momento que identificou uma pipeline com falha até o momento em que a próxima foi corrigida.
+-  Número de linhas adicionadas no commit em que a pipeline foi corrigida.
+- Número de linhas removidas no commit em que a pipeline foi corrigida.
+- Número de linhas comentadas no commit em que a pipeline foi corrigida.
+- Número médio de pipelines com falhas no projeto
+- Percentual de pipeline que são interrompidas devido a falhas.
