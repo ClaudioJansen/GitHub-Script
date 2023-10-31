@@ -7,7 +7,7 @@ from datetime import datetime
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
-token = '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'
+token = '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'
 headers = {'Authorization': f'token {token}'}
 total_repositorios = 0
 repositorios_com_falha = 0
@@ -19,7 +19,7 @@ num_paginas = num_repositorios // repos_por_pagina
 retry_strategy = Retry(
     total=3,
     status_forcelist=[429, 500, 502, 503, 504],
-    method_whitelist=["HEAD", "GET", "OPTIONS"]
+    allowed_methods=["HEAD", "GET", "OPTIONS"], 
 )
 adapter = HTTPAdapter(max_retries=retry_strategy)
 
@@ -144,10 +144,11 @@ def obter_detalhes_falha(session, repo_name, headers):
     return falhas_totais, etapas_falha, falhas_build, falhas_teste, falhas_lint, falhas_deploy, total_pipelines, percentual_falha, tempos_correcao, linhas_adicionadas_list, linhas_removidas_list
 
 with open('dados_pipelines.csv', mode='w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    writer.writerow(['nome_do_repositorio', 'linguagem', 'falhas_totais', 'etapas_falha', 'falhas_build', 'falhas_teste', 'falhas_lint', 'falhas_deploy', 'total_pipelines', 'percentual_falha', 'linhas_adicionadas', 'linhas_removidas'])
+    writer = csv.writer(file, delimiter=';')
+    writer.writerow(['nome_do_repositorio', 'linguagem', 'falhas_totais', 'etapas_falha', 'falhas_build', 'falhas_teste', 'falhas_lint', 'falhas_deploy', 'total_pipelines', 'percentual_falha', 'tempos_correcao', 'linhas_adicionadas', 'linhas_removidas'])
     
     while repositorios_com_falha < num_repositorios:
+        time.sleep(2)
         total_repositorios += 1
         try:
             url = f'https://api.github.com/search/repositories?q=stars:>1&s=stars&o=desc&page={page_num}&per_page={repos_por_pagina}'
@@ -178,7 +179,6 @@ with open('dados_pipelines.csv', mode='w', newline='', encoding='utf-8') as file
 
         page_num += 1
 
-    writer.writerow('Total de repositórios lidos: ', total_repositorios)
-
+    writer.writerow(['Total de repositórios lidos', total_repositorios])
 
 session.close()
